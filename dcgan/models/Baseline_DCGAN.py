@@ -12,7 +12,7 @@ import os
 
 # Initialize WandB for experiment tracking
 wandb.login()
-wandb.init(project='DCGAN', name='Combined')
+wandb.init(project='DCGAN', name='Baseline')
 
 # Configuration settings
 config = wandb.config
