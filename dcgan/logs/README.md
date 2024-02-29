@@ -1,1 +1,1 @@
-Recreated logs for the images after the experiment
+Recreated logs for the images after the experiments
