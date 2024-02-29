@@ -12,13 +12,13 @@ import os
 
 # Initialize WandB for experiment tracking
 wandb.login()
-wandb.init(project='DCGAN', name='Baseline')
+wandb.init(project='DCGAN', name='Baseline', dir='../logs/')
 
 # Configuration settings
 config = wandb.config
 config.BUFFER_SIZE = 60000
 config.BATCH_SIZE = 256
-config.EPOCHS = 10
+config.EPOCHS = 20
 config.noise_dim = 100
 config.num_to_generate = 16
 
