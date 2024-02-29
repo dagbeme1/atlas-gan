@@ -1,0 +1,50 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    python_version: 3.10.12
+    cli_version: 0.16.3
+    framework: keras
+    is_jupyter_run: true
+    is_kaggle_kernel: false
+    start_time: 1709162117.590878
+    t:
+      1:
+      - 2
+      - 3
+      - 12
+      - 55
+      2:
+      - 2
+      - 3
+      - 12
+      - 55
+      3:
+      - 2
+      - 13
+      - 19
+      - 23
+      4: 3.10.12
+      5: 0.16.3
+      8:
+      - 1
+      - 5
+      - 12
+      13: linux-x86_64
+    session_history: code/_session_history.ipynb
+BUFFER_SIZE:
+  desc: null
+  value: 60000
+BATCH_SIZE:
+  desc: null
+  value: 256
+EPOCHS:
+  desc: null
+  value: 10
+noise_dim:
+  desc: null
+  value: 100
+num_to_generate:
+  desc: null
+  value: 16
