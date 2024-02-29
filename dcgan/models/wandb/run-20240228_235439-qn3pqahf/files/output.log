@@ -1,0 +1,47 @@
+WARNING:tensorflow:Mixed precision compatibility check (mixed_float16): WARNING
+The dtype policy mixed_float16 may run slowly because this machine does not have a GPU. Only Nvidia GPUs with compute capability of at least 7.0 run quickly with mixed_float16.
+If you will use compatible GPU(s) not attached to this host, e.g. by running a multi-worker model, you can ignore this warning. This message will only be logged once
+Traceback (most recent call last):
+  File "PrecisionChanges.py", line 158, in <module>
+    train(train_dataset, config.EPOCHS)
+  File "PrecisionChanges.py", line 126, in train
+    gen_loss, disc_loss = train_step(image_batch)
+  File "/home/dagbemenu/.local/lib/python3.8/site-packages/tensorflow/python/util/traceback_utils.py", line 150, in error_handler
+    return fn(*args, **kwargs)
+  File "/home/dagbemenu/.local/lib/python3.8/site-packages/tensorflow/python/eager/polymorphic_function/polymorphic_function.py", line 825, in __call__
+    result = self._call(*args, **kwds)
+  File "/home/dagbemenu/.local/lib/python3.8/site-packages/tensorflow/python/eager/polymorphic_function/polymorphic_function.py", line 857, in _call
+    return self._no_variable_creation_fn(*args, **kwds)  # pylint: disable=not-callable
+  File "/home/dagbemenu/.local/lib/python3.8/site-packages/tensorflow/python/eager/polymorphic_function/tracing_compiler.py", line 148, in __call__
+    return concrete_function._call_flat(
+  File "/home/dagbemenu/.local/lib/python3.8/site-packages/tensorflow/python/eager/polymorphic_function/monomorphic_function.py", line 1349, in _call_flat
+    return self._build_call_outputs(self._inference_function(*args))
+  File "/home/dagbemenu/.local/lib/python3.8/site-packages/tensorflow/python/eager/polymorphic_function/atomic_function.py", line 196, in __call__
+    outputs = self._bound_context.call_function(
+  File "/home/dagbemenu/.local/lib/python3.8/site-packages/tensorflow/python/eager/context.py", line 1457, in call_function
+    outputs = execute.execute(
+  File "/home/dagbemenu/.local/lib/python3.8/site-packages/tensorflow/python/eager/execute.py", line 53, in quick_execute
+    tensors = pywrap_tfe.TFE_Py_Execute(ctx._handle, device_name, op_name,
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "PrecisionChanges.py", line 158, in <module>
+    train(train_dataset, config.EPOCHS)
+  File "PrecisionChanges.py", line 126, in train
+    gen_loss, disc_loss = train_step(image_batch)
+  File "/home/dagbemenu/.local/lib/python3.8/site-packages/tensorflow/python/util/traceback_utils.py", line 150, in error_handler
+    return fn(*args, **kwargs)
+  File "/home/dagbemenu/.local/lib/python3.8/site-packages/tensorflow/python/eager/polymorphic_function/polymorphic_function.py", line 825, in __call__
+    result = self._call(*args, **kwds)
+  File "/home/dagbemenu/.local/lib/python3.8/site-packages/tensorflow/python/eager/polymorphic_function/polymorphic_function.py", line 857, in _call
+    return self._no_variable_creation_fn(*args, **kwds)  # pylint: disable=not-callable
+  File "/home/dagbemenu/.local/lib/python3.8/site-packages/tensorflow/python/eager/polymorphic_function/tracing_compiler.py", line 148, in __call__
+    return concrete_function._call_flat(
+  File "/home/dagbemenu/.local/lib/python3.8/site-packages/tensorflow/python/eager/polymorphic_function/monomorphic_function.py", line 1349, in _call_flat
+    return self._build_call_outputs(self._inference_function(*args))
+  File "/home/dagbemenu/.local/lib/python3.8/site-packages/tensorflow/python/eager/polymorphic_function/atomic_function.py", line 196, in __call__
+    outputs = self._bound_context.call_function(
+  File "/home/dagbemenu/.local/lib/python3.8/site-packages/tensorflow/python/eager/context.py", line 1457, in call_function
+    outputs = execute.execute(
+  File "/home/dagbemenu/.local/lib/python3.8/site-packages/tensorflow/python/eager/execute.py", line 53, in quick_execute
+    tensors = pywrap_tfe.TFE_Py_Execute(ctx._handle, device_name, op_name,
+KeyboardInterrupt

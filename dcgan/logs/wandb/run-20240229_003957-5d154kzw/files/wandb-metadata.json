@@ -1,0 +1,80 @@
+{
+    "os": "Linux-5.15.133.1-microsoft-standard-WSL2-x86_64-with-glibc2.29",
+    "python": "3.8.10",
+    "heartbeatAt": "2024-02-29T06:39:58.107915",
+    "startedAt": "2024-02-29T06:39:57.474759",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "Baseline_DCGAN.py",
+    "codePathLocal": "Baseline_DCGAN.py",
+    "codePath": "dcgan/models/Baseline_DCGAN.py",
+    "git": {
+        "remote": "https://github.com/dagbeme1/atlas-gan.git",
+        "commit": "fd876547b78bd5c26febb7e649e763d2e467fa15"
+    },
+    "email": "you@example.com",
+    "root": "/home/dagbemenu/atlas-gan",
+    "host": "DESKTOP-1AG9O62",
+    "username": "dagbemenu",
+    "executable": "/usr/bin/python3",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 1896.0059999999999,
+        "min": 0.0,
+        "max": 0.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 1896.006,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 1896.006,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 1896.006,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 1896.006,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 1896.006,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 1896.006,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 1896.006,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 1896.006,
+            "min": 0.0,
+            "max": 0.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 1006.853931427002,
+            "used": 22.65073013305664
+        }
+    },
+    "memory": {
+        "total": 15.531227111816406
+    }
+}

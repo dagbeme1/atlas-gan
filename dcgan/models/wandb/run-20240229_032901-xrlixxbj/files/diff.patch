@@ -1,0 +1,60 @@
+diff --git a/dcgan/models/HyperParameters.py b/dcgan/models/HyperParameters.py
+old mode 100644
+new mode 100755
+diff --git a/dcgan/models/image_at_epoch_0001.png b/dcgan/models/image_at_epoch_0001.png
+index 152282c..db619c7 100644
+Binary files a/dcgan/models/image_at_epoch_0001.png and b/dcgan/models/image_at_epoch_0001.png differ
+diff --git a/dcgan/models/image_at_epoch_0002.png b/dcgan/models/image_at_epoch_0002.png
+index cb1a73e..c676bac 100644
+Binary files a/dcgan/models/image_at_epoch_0002.png and b/dcgan/models/image_at_epoch_0002.png differ
+diff --git a/dcgan/models/image_at_epoch_0003.png b/dcgan/models/image_at_epoch_0003.png
+index a51c060..e465fea 100644
+Binary files a/dcgan/models/image_at_epoch_0003.png and b/dcgan/models/image_at_epoch_0003.png differ
+diff --git a/dcgan/models/image_at_epoch_0004.png b/dcgan/models/image_at_epoch_0004.png
+index 91fd6dc..f34f743 100644
+Binary files a/dcgan/models/image_at_epoch_0004.png and b/dcgan/models/image_at_epoch_0004.png differ
+diff --git a/dcgan/models/image_at_epoch_0005.png b/dcgan/models/image_at_epoch_0005.png
+index cad78cb..e33e499 100644
+Binary files a/dcgan/models/image_at_epoch_0005.png and b/dcgan/models/image_at_epoch_0005.png differ
+diff --git a/dcgan/models/image_at_epoch_0006.png b/dcgan/models/image_at_epoch_0006.png
+index 581b0c9..0fa3fbf 100644
+Binary files a/dcgan/models/image_at_epoch_0006.png and b/dcgan/models/image_at_epoch_0006.png differ
+diff --git a/dcgan/models/image_at_epoch_0007.png b/dcgan/models/image_at_epoch_0007.png
+index e55a10b..0c1dadb 100644
+Binary files a/dcgan/models/image_at_epoch_0007.png and b/dcgan/models/image_at_epoch_0007.png differ
+diff --git a/dcgan/models/image_at_epoch_0008.png b/dcgan/models/image_at_epoch_0008.png
+index f961036..b27e016 100644
+Binary files a/dcgan/models/image_at_epoch_0008.png and b/dcgan/models/image_at_epoch_0008.png differ
+diff --git a/dcgan/models/image_at_epoch_0009.png b/dcgan/models/image_at_epoch_0009.png
+index 12fa60f..fab5a8b 100644
+Binary files a/dcgan/models/image_at_epoch_0009.png and b/dcgan/models/image_at_epoch_0009.png differ
+diff --git a/dcgan/models/image_at_epoch_0010.png b/dcgan/models/image_at_epoch_0010.png
+index 2a1fa57..5424a07 100644
+Binary files a/dcgan/models/image_at_epoch_0010.png and b/dcgan/models/image_at_epoch_0010.png differ
+diff --git a/dcgan/models/wandb/debug-internal.log b/dcgan/models/wandb/debug-internal.log
+index c25d02e..08c2557 120000
+--- a/dcgan/models/wandb/debug-internal.log
++++ b/dcgan/models/wandb/debug-internal.log
+@@ -1 +1 @@
+-run-20240228_223755-ret2a9uj/logs/debug-internal.log
+\ No newline at end of file
++run-20240229_032901-xrlixxbj/logs/debug-internal.log
+\ No newline at end of file
+diff --git a/dcgan/models/wandb/debug.log b/dcgan/models/wandb/debug.log
+index 044c176..cbfbcdb 120000
+--- a/dcgan/models/wandb/debug.log
++++ b/dcgan/models/wandb/debug.log
+@@ -1 +1 @@
+-run-20240228_223755-ret2a9uj/logs/debug.log
+\ No newline at end of file
++run-20240229_032901-xrlixxbj/logs/debug.log
+\ No newline at end of file
+diff --git a/dcgan/models/wandb/latest-run b/dcgan/models/wandb/latest-run
+index 12c46af..2dadecf 120000
+--- a/dcgan/models/wandb/latest-run
++++ b/dcgan/models/wandb/latest-run
+@@ -1 +1 @@
+-run-20240228_223755-ret2a9uj
+\ No newline at end of file
++run-20240229_032901-xrlixxbj
+\ No newline at end of file

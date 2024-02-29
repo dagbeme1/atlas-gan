@@ -1,0 +1,309 @@
+2024-02-29 03:29:01,655 INFO    StreamThr :1266 [internal.py:wandb_internal():86] W&B internal server running at pid: 1266, started at: 2024-02-29 03:29:01.654906
+2024-02-29 03:29:01,658 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: status
+2024-02-29 03:29:01,662 INFO    WriterThread:1266 [datastore.py:open_for_write():85] open: /home/dagbemenu/atlas-gan/dcgan/models/wandb/run-20240229_032901-xrlixxbj/run-xrlixxbj.wandb
+2024-02-29 03:29:01,663 DEBUG   SenderThread:1266 [sender.py:send():380] send: header
+2024-02-29 03:29:01,671 DEBUG   SenderThread:1266 [sender.py:send():380] send: run
+2024-02-29 03:29:02,033 INFO    SenderThread:1266 [dir_watcher.py:__init__():211] watching files in: /home/dagbemenu/atlas-gan/dcgan/models/wandb/run-20240229_032901-xrlixxbj/files
+2024-02-29 03:29:02,034 INFO    SenderThread:1266 [sender.py:_start_run_threads():1122] run started: xrlixxbj with start time 1709198941.654896
+2024-02-29 03:29:02,050 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: check_version
+2024-02-29 03:29:02,050 DEBUG   SenderThread:1266 [sender.py:send_request():407] send_request: check_version
+2024-02-29 03:29:02,314 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: run_start
+2024-02-29 03:29:02,316 DEBUG   HandlerThread:1266 [system_info.py:__init__():32] System info init
+2024-02-29 03:29:02,316 DEBUG   HandlerThread:1266 [system_info.py:__init__():47] System info init done
+2024-02-29 03:29:02,316 INFO    HandlerThread:1266 [system_monitor.py:start():194] Starting system monitor
+2024-02-29 03:29:02,316 INFO    SystemMonitor:1266 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-02-29 03:29:02,319 INFO    HandlerThread:1266 [system_monitor.py:probe():214] Collecting system info
+2024-02-29 03:29:02,320 INFO    SystemMonitor:1266 [interfaces.py:start():190] Started cpu monitoring
+2024-02-29 03:29:02,321 INFO    SystemMonitor:1266 [interfaces.py:start():190] Started disk monitoring
+2024-02-29 03:29:02,322 INFO    SystemMonitor:1266 [interfaces.py:start():190] Started memory monitoring
+2024-02-29 03:29:02,323 INFO    SystemMonitor:1266 [interfaces.py:start():190] Started network monitoring
+2024-02-29 03:29:02,335 DEBUG   HandlerThread:1266 [system_info.py:probe():196] Probing system
+2024-02-29 03:29:02,403 DEBUG   HandlerThread:1266 [system_info.py:_probe_git():181] Probing git
+2024-02-29 03:29:02,411 DEBUG   HandlerThread:1266 [system_info.py:_probe_git():189] Probing git done
+2024-02-29 03:29:02,411 DEBUG   HandlerThread:1266 [system_info.py:probe():244] Probing system done
+2024-02-29 03:29:02,411 DEBUG   HandlerThread:1266 [system_monitor.py:probe():223] {'os': 'Linux-5.15.133.1-microsoft-standard-WSL2-x86_64-with-glibc2.29', 'python': '3.8.10', 'heartbeatAt': '2024-02-29T09:29:02.335448', 'startedAt': '2024-02-29T09:29:01.646996', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'PrecisionChanges.py', 'codePathLocal': 'PrecisionChanges.py', 'codePath': 'dcgan/models/PrecisionChanges.py', 'git': {'remote': 'https://github.com/dagbeme1/atlas-gan.git', 'commit': 'b32cce6842c9bcd0fc11d589e16087cb918efb50'}, 'email': 'you@example.com', 'root': '/home/dagbemenu/atlas-gan', 'host': 'DESKTOP-1AG9O62', 'username': 'dagbemenu', 'executable': '/usr/bin/python3', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 1896.0059999999999, 'min': 0.0, 'max': 0.0}, 'cpu_freq_per_core': [{'current': 1896.006, 'min': 0.0, 'max': 0.0}, {'current': 1896.006, 'min': 0.0, 'max': 0.0}, {'current': 1896.006, 'min': 0.0, 'max': 0.0}, {'current': 1896.006, 'min': 0.0, 'max': 0.0}, {'current': 1896.006, 'min': 0.0, 'max': 0.0}, {'current': 1896.006, 'min': 0.0, 'max': 0.0}, {'current': 1896.006, 'min': 0.0, 'max': 0.0}, {'current': 1896.006, 'min': 0.0, 'max': 0.0}], 'disk': {'/': {'total': 1006.853931427002, 'used': 22.652645111083984}}, 'memory': {'total': 15.531227111816406}}
+2024-02-29 03:29:02,411 INFO    HandlerThread:1266 [system_monitor.py:probe():224] Finished collecting system info
+2024-02-29 03:29:02,411 INFO    HandlerThread:1266 [system_monitor.py:probe():227] Publishing system info
+2024-02-29 03:29:02,411 DEBUG   HandlerThread:1266 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2024-02-29 03:29:02,412 DEBUG   HandlerThread:1266 [system_info.py:_save_pip():68] Saving pip packages done
+2024-02-29 03:29:02,412 DEBUG   HandlerThread:1266 [system_info.py:_save_code():90] Saving code
+2024-02-29 03:29:02,415 DEBUG   HandlerThread:1266 [system_info.py:_save_code():111] Saving code done
+2024-02-29 03:29:02,415 DEBUG   HandlerThread:1266 [system_info.py:_save_patches():128] Saving git patches
+2024-02-29 03:29:02,453 DEBUG   HandlerThread:1266 [system_info.py:_save_patches():170] Saving git patches done
+2024-02-29 03:29:02,454 INFO    HandlerThread:1266 [system_monitor.py:probe():229] Finished publishing system info
+2024-02-29 03:29:02,458 DEBUG   SenderThread:1266 [sender.py:send():380] send: files
+2024-02-29 03:29:02,459 INFO    SenderThread:1266 [sender.py:_save_file():1378] saving file wandb-metadata.json with policy now
+2024-02-29 03:29:02,459 INFO    SenderThread:1266 [sender.py:_save_file():1378] saving file code/dcgan/models/PrecisionChanges.py with policy now
+2024-02-29 03:29:02,459 INFO    SenderThread:1266 [sender.py:_save_file():1378] saving file diff.patch with policy now
+2024-02-29 03:29:02,468 DEBUG   SenderThread:1266 [sender.py:send():380] send: telemetry
+2024-02-29 03:29:02,469 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-29 03:29:02,472 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-29 03:29:02,475 DEBUG   SenderThread:1266 [sender.py:send_request():407] send_request: stop_status
+2024-02-29 03:29:02,673 DEBUG   SenderThread:1266 [sender.py:send():380] send: telemetry
+2024-02-29 03:29:02,673 DEBUG   SenderThread:1266 [sender.py:send():380] send: config
+2024-02-29 03:29:02,673 DEBUG   SenderThread:1266 [sender.py:send():380] send: config
+2024-02-29 03:29:02,673 DEBUG   SenderThread:1266 [sender.py:send():380] send: config
+2024-02-29 03:29:02,673 DEBUG   SenderThread:1266 [sender.py:send():380] send: config
+2024-02-29 03:29:02,673 DEBUG   SenderThread:1266 [sender.py:send():380] send: config
+2024-02-29 03:29:02,874 INFO    wandb-upload_0:1266 [upload_job.py:push():131] Uploaded file /tmp/tmpx07ook6uwandb/ngbrq70c-wandb-metadata.json
+2024-02-29 03:29:02,935 INFO    wandb-upload_2:1266 [upload_job.py:push():131] Uploaded file /tmp/tmpx07ook6uwandb/dd7mlose-diff.patch
+2024-02-29 03:29:03,034 INFO    Thread-12 :1266 [dir_watcher.py:_on_file_created():271] file/dir created: /home/dagbemenu/atlas-gan/dcgan/models/wandb/run-20240229_032901-xrlixxbj/files/code/dcgan/models/PrecisionChanges.py
+2024-02-29 03:29:03,034 INFO    Thread-12 :1266 [dir_watcher.py:_on_file_created():271] file/dir created: /home/dagbemenu/atlas-gan/dcgan/models/wandb/run-20240229_032901-xrlixxbj/files/wandb-metadata.json
+2024-02-29 03:29:03,035 INFO    Thread-12 :1266 [dir_watcher.py:_on_file_created():271] file/dir created: /home/dagbemenu/atlas-gan/dcgan/models/wandb/run-20240229_032901-xrlixxbj/files/diff.patch
+2024-02-29 03:29:03,035 INFO    Thread-12 :1266 [dir_watcher.py:_on_file_created():271] file/dir created: /home/dagbemenu/atlas-gan/dcgan/models/wandb/run-20240229_032901-xrlixxbj/files/requirements.txt
+2024-02-29 03:29:03,035 INFO    Thread-12 :1266 [dir_watcher.py:_on_file_created():271] file/dir created: /home/dagbemenu/atlas-gan/dcgan/models/wandb/run-20240229_032901-xrlixxbj/files/output.log
+2024-02-29 03:29:03,035 INFO    Thread-12 :1266 [dir_watcher.py:_on_file_created():271] file/dir created: /home/dagbemenu/atlas-gan/dcgan/models/wandb/run-20240229_032901-xrlixxbj/files/code/dcgan/models
+2024-02-29 03:29:03,035 INFO    Thread-12 :1266 [dir_watcher.py:_on_file_created():271] file/dir created: /home/dagbemenu/atlas-gan/dcgan/models/wandb/run-20240229_032901-xrlixxbj/files/code
+2024-02-29 03:29:03,035 INFO    Thread-12 :1266 [dir_watcher.py:_on_file_created():271] file/dir created: /home/dagbemenu/atlas-gan/dcgan/models/wandb/run-20240229_032901-xrlixxbj/files/code/dcgan
+2024-02-29 03:29:03,038 INFO    wandb-upload_1:1266 [upload_job.py:push():131] Uploaded file /tmp/tmpx07ook6uwandb/fk6hfxfp-code/dcgan/models/PrecisionChanges.py
+2024-02-29 03:29:05,034 INFO    Thread-12 :1266 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/dagbemenu/atlas-gan/dcgan/models/wandb/run-20240229_032901-xrlixxbj/files/output.log
+2024-02-29 03:29:06,674 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: status_report
+2024-02-29 03:29:11,675 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: status_report
+2024-02-29 03:29:16,676 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: status_report
+2024-02-29 03:29:17,465 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-29 03:29:17,465 DEBUG   SenderThread:1266 [sender.py:send_request():407] send_request: stop_status
+2024-02-29 03:29:17,506 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-29 03:29:22,643 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: status_report
+2024-02-29 03:29:27,644 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: status_report
+2024-02-29 03:29:32,465 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-29 03:29:32,466 DEBUG   SenderThread:1266 [sender.py:send_request():407] send_request: stop_status
+2024-02-29 03:29:32,506 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-29 03:29:33,606 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: status_report
+2024-02-29 03:29:34,050 INFO    Thread-12 :1266 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/dagbemenu/atlas-gan/dcgan/models/wandb/run-20240229_032901-xrlixxbj/files/config.yaml
+2024-02-29 03:29:38,683 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: status_report
+2024-02-29 03:29:43,684 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: status_report
+2024-02-29 03:29:47,465 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-29 03:29:47,466 DEBUG   SenderThread:1266 [sender.py:send_request():407] send_request: stop_status
+2024-02-29 03:29:47,506 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-29 03:29:49,530 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: status_report
+2024-02-29 03:29:54,531 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: status_report
+2024-02-29 03:29:59,542 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: status_report
+2024-02-29 03:30:02,323 DEBUG   SystemMonitor:1266 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-02-29 03:30:02,325 DEBUG   SenderThread:1266 [sender.py:send():380] send: stats
+2024-02-29 03:30:02,465 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-29 03:30:02,466 DEBUG   SenderThread:1266 [sender.py:send_request():407] send_request: stop_status
+2024-02-29 03:30:02,506 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-29 03:30:04,645 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: status_report
+2024-02-29 03:30:09,650 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: status_report
+2024-02-29 03:30:14,651 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: status_report
+2024-02-29 03:30:17,468 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-29 03:30:17,471 DEBUG   SenderThread:1266 [sender.py:send_request():407] send_request: stop_status
+2024-02-29 03:30:17,516 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-29 03:30:20,585 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: status_report
+2024-02-29 03:30:25,587 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: status_report
+2024-02-29 03:30:30,590 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: status_report
+2024-02-29 03:30:32,329 DEBUG   SenderThread:1266 [sender.py:send():380] send: stats
+2024-02-29 03:30:32,466 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-29 03:30:32,467 DEBUG   SenderThread:1266 [sender.py:send_request():407] send_request: stop_status
+2024-02-29 03:30:32,516 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-29 03:30:36,553 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: status_report
+2024-02-29 03:30:41,553 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: status_report
+2024-02-29 03:30:46,554 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: status_report
+2024-02-29 03:30:47,467 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-29 03:30:47,467 DEBUG   SenderThread:1266 [sender.py:send_request():407] send_request: stop_status
+2024-02-29 03:30:47,516 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-29 03:30:51,635 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: status_report
+2024-02-29 03:30:56,635 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: status_report
+2024-02-29 03:31:01,636 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: status_report
+2024-02-29 03:31:02,331 DEBUG   SenderThread:1266 [sender.py:send():380] send: stats
+2024-02-29 03:31:02,468 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-29 03:31:02,468 DEBUG   SenderThread:1266 [sender.py:send_request():407] send_request: stop_status
+2024-02-29 03:31:02,516 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-29 03:31:07,570 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: status_report
+2024-02-29 03:31:12,570 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: status_report
+2024-02-29 03:31:17,467 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-29 03:31:17,470 DEBUG   SenderThread:1266 [sender.py:send_request():407] send_request: stop_status
+2024-02-29 03:31:17,516 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-29 03:31:17,618 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: status_report
+2024-02-29 03:31:22,624 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: status_report
+2024-02-29 03:31:27,626 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: status_report
+2024-02-29 03:31:32,332 DEBUG   SenderThread:1266 [sender.py:send():380] send: stats
+2024-02-29 03:31:32,467 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-29 03:31:32,467 DEBUG   SenderThread:1266 [sender.py:send_request():407] send_request: stop_status
+2024-02-29 03:31:32,516 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-29 03:31:33,612 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: status_report
+2024-02-29 03:31:38,613 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: status_report
+2024-02-29 03:31:43,614 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: status_report
+2024-02-29 03:31:47,468 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-29 03:31:47,469 DEBUG   SenderThread:1266 [sender.py:send_request():407] send_request: stop_status
+2024-02-29 03:31:47,516 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-29 03:31:49,570 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: status_report
+2024-02-29 03:31:54,572 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: status_report
+2024-02-29 03:31:59,579 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: status_report
+2024-02-29 03:32:02,333 DEBUG   SenderThread:1266 [sender.py:send():380] send: stats
+2024-02-29 03:32:02,469 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-29 03:32:02,469 DEBUG   SenderThread:1266 [sender.py:send_request():407] send_request: stop_status
+2024-02-29 03:32:02,516 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-29 03:32:05,555 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: status_report
+2024-02-29 03:32:10,556 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: status_report
+2024-02-29 03:32:15,557 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: status_report
+2024-02-29 03:32:17,469 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-29 03:32:17,469 DEBUG   SenderThread:1266 [sender.py:send_request():407] send_request: stop_status
+2024-02-29 03:32:17,516 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-29 03:32:20,586 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: status_report
+2024-02-29 03:32:25,588 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: status_report
+2024-02-29 03:32:30,589 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: status_report
+2024-02-29 03:32:32,334 DEBUG   SenderThread:1266 [sender.py:send():380] send: stats
+2024-02-29 03:32:32,469 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-29 03:32:32,469 DEBUG   SenderThread:1266 [sender.py:send_request():407] send_request: stop_status
+2024-02-29 03:32:32,516 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-29 03:32:35,620 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: status_report
+2024-02-29 03:32:40,621 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: status_report
+2024-02-29 03:32:45,623 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: status_report
+2024-02-29 03:32:47,469 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-29 03:32:47,469 DEBUG   SenderThread:1266 [sender.py:send_request():407] send_request: stop_status
+2024-02-29 03:32:47,516 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-29 03:32:51,611 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: status_report
+2024-02-29 03:32:56,612 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: status_report
+2024-02-29 03:33:01,614 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: status_report
+2024-02-29 03:33:02,346 DEBUG   SenderThread:1266 [sender.py:send():380] send: stats
+2024-02-29 03:33:02,469 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-29 03:33:02,469 DEBUG   SenderThread:1266 [sender.py:send_request():407] send_request: stop_status
+2024-02-29 03:33:02,516 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-29 03:33:07,573 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: status_report
+2024-02-29 03:33:12,573 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: status_report
+2024-02-29 03:33:17,469 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-29 03:33:17,469 DEBUG   SenderThread:1266 [sender.py:send_request():407] send_request: stop_status
+2024-02-29 03:33:17,516 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-29 03:33:18,535 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: status_report
+2024-02-29 03:33:23,536 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: status_report
+2024-02-29 03:33:28,536 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: status_report
+2024-02-29 03:33:32,290 DEBUG   SenderThread:1266 [sender.py:send():380] send: exit
+2024-02-29 03:33:32,291 INFO    SenderThread:1266 [sender.py:send_exit():585] handling exit code: 255
+2024-02-29 03:33:32,293 INFO    SenderThread:1266 [sender.py:send_exit():587] handling runtime: 269
+2024-02-29 03:33:32,297 INFO    SenderThread:1266 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-29 03:33:32,299 INFO    SenderThread:1266 [sender.py:send_exit():593] send defer
+2024-02-29 03:33:32,300 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: defer
+2024-02-29 03:33:32,300 INFO    HandlerThread:1266 [handler.py:handle_request_defer():172] handle defer: 0
+2024-02-29 03:33:32,301 DEBUG   SenderThread:1266 [sender.py:send_request():407] send_request: defer
+2024-02-29 03:33:32,301 INFO    SenderThread:1266 [sender.py:send_request_defer():609] handle sender defer: 0
+2024-02-29 03:33:32,301 INFO    SenderThread:1266 [sender.py:transition_state():613] send defer: 1
+2024-02-29 03:33:32,302 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: defer
+2024-02-29 03:33:32,302 INFO    HandlerThread:1266 [handler.py:handle_request_defer():172] handle defer: 1
+2024-02-29 03:33:32,303 DEBUG   SenderThread:1266 [sender.py:send_request():407] send_request: defer
+2024-02-29 03:33:32,303 INFO    SenderThread:1266 [sender.py:send_request_defer():609] handle sender defer: 1
+2024-02-29 03:33:32,303 INFO    SenderThread:1266 [sender.py:transition_state():613] send defer: 2
+2024-02-29 03:33:32,304 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: defer
+2024-02-29 03:33:32,304 INFO    HandlerThread:1266 [handler.py:handle_request_defer():172] handle defer: 2
+2024-02-29 03:33:32,305 INFO    HandlerThread:1266 [system_monitor.py:finish():203] Stopping system monitor
+2024-02-29 03:33:32,306 DEBUG   SystemMonitor:1266 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-02-29 03:33:32,306 DEBUG   SystemMonitor:1266 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-02-29 03:33:32,308 INFO    HandlerThread:1266 [interfaces.py:finish():202] Joined cpu monitor
+2024-02-29 03:33:32,310 INFO    HandlerThread:1266 [interfaces.py:finish():202] Joined disk monitor
+2024-02-29 03:33:32,310 INFO    HandlerThread:1266 [interfaces.py:finish():202] Joined memory monitor
+2024-02-29 03:33:32,311 INFO    HandlerThread:1266 [interfaces.py:finish():202] Joined network monitor
+2024-02-29 03:33:32,313 DEBUG   SenderThread:1266 [sender.py:send_request():407] send_request: defer
+2024-02-29 03:33:32,313 INFO    SenderThread:1266 [sender.py:send_request_defer():609] handle sender defer: 2
+2024-02-29 03:33:32,313 INFO    SenderThread:1266 [sender.py:transition_state():613] send defer: 3
+2024-02-29 03:33:32,314 DEBUG   SenderThread:1266 [sender.py:send():380] send: stats
+2024-02-29 03:33:32,314 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: defer
+2024-02-29 03:33:32,315 INFO    HandlerThread:1266 [handler.py:handle_request_defer():172] handle defer: 3
+2024-02-29 03:33:32,316 DEBUG   SenderThread:1266 [sender.py:send_request():407] send_request: defer
+2024-02-29 03:33:32,316 INFO    SenderThread:1266 [sender.py:send_request_defer():609] handle sender defer: 3
+2024-02-29 03:33:32,316 INFO    SenderThread:1266 [sender.py:transition_state():613] send defer: 4
+2024-02-29 03:33:32,317 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: defer
+2024-02-29 03:33:32,317 INFO    HandlerThread:1266 [handler.py:handle_request_defer():172] handle defer: 4
+2024-02-29 03:33:32,318 DEBUG   SenderThread:1266 [sender.py:send_request():407] send_request: defer
+2024-02-29 03:33:32,318 INFO    SenderThread:1266 [sender.py:send_request_defer():609] handle sender defer: 4
+2024-02-29 03:33:32,318 INFO    SenderThread:1266 [sender.py:transition_state():613] send defer: 5
+2024-02-29 03:33:32,319 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: defer
+2024-02-29 03:33:32,319 INFO    HandlerThread:1266 [handler.py:handle_request_defer():172] handle defer: 5
+2024-02-29 03:33:32,320 DEBUG   SenderThread:1266 [sender.py:send():380] send: summary
+2024-02-29 03:33:32,321 INFO    SenderThread:1266 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-29 03:33:32,322 DEBUG   SenderThread:1266 [sender.py:send_request():407] send_request: defer
+2024-02-29 03:33:32,322 INFO    SenderThread:1266 [sender.py:send_request_defer():609] handle sender defer: 5
+2024-02-29 03:33:32,322 INFO    SenderThread:1266 [sender.py:transition_state():613] send defer: 6
+2024-02-29 03:33:32,323 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: defer
+2024-02-29 03:33:32,323 INFO    HandlerThread:1266 [handler.py:handle_request_defer():172] handle defer: 6
+2024-02-29 03:33:32,324 DEBUG   SenderThread:1266 [sender.py:send_request():407] send_request: defer
+2024-02-29 03:33:32,324 INFO    SenderThread:1266 [sender.py:send_request_defer():609] handle sender defer: 6
+2024-02-29 03:33:32,324 INFO    SenderThread:1266 [sender.py:transition_state():613] send defer: 7
+2024-02-29 03:33:32,325 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: status_report
+2024-02-29 03:33:32,325 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: defer
+2024-02-29 03:33:32,326 INFO    HandlerThread:1266 [handler.py:handle_request_defer():172] handle defer: 7
+2024-02-29 03:33:32,327 DEBUG   SenderThread:1266 [sender.py:send_request():407] send_request: defer
+2024-02-29 03:33:32,327 INFO    SenderThread:1266 [sender.py:send_request_defer():609] handle sender defer: 7
+2024-02-29 03:33:32,841 INFO    SenderThread:1266 [sender.py:transition_state():613] send defer: 8
+2024-02-29 03:33:32,841 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: defer
+2024-02-29 03:33:32,842 INFO    HandlerThread:1266 [handler.py:handle_request_defer():172] handle defer: 8
+2024-02-29 03:33:32,843 DEBUG   SenderThread:1266 [sender.py:send_request():407] send_request: defer
+2024-02-29 03:33:32,843 INFO    SenderThread:1266 [sender.py:send_request_defer():609] handle sender defer: 8
+2024-02-29 03:33:32,843 INFO    SenderThread:1266 [job_builder.py:build():281] Attempting to build job artifact
+2024-02-29 03:33:32,844 INFO    SenderThread:1266 [job_builder.py:_get_source_type():393] is repo sourced job
+2024-02-29 03:33:32,849 INFO    SenderThread:1266 [job_builder.py:build():369] adding wandb-job metadata file
+2024-02-29 03:33:32,863 INFO    SenderThread:1266 [sender.py:transition_state():613] send defer: 9
+2024-02-29 03:33:32,863 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: defer
+2024-02-29 03:33:32,863 INFO    HandlerThread:1266 [handler.py:handle_request_defer():172] handle defer: 9
+2024-02-29 03:33:32,864 DEBUG   SenderThread:1266 [sender.py:send():380] send: artifact
+2024-02-29 03:33:33,208 INFO    Thread-12 :1266 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/dagbemenu/atlas-gan/dcgan/models/wandb/run-20240229_032901-xrlixxbj/files/output.log
+2024-02-29 03:33:33,208 INFO    Thread-12 :1266 [dir_watcher.py:_on_file_created():271] file/dir created: /home/dagbemenu/atlas-gan/dcgan/models/wandb/run-20240229_032901-xrlixxbj/files/wandb-summary.json
+2024-02-29 03:33:33,278 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: poll_exit
+2024-02-29 03:33:33,391 INFO    wandb-upload_2:1266 [upload_job.py:push():86] Skipped uploading /home/dagbemenu/.local/share/wandb/artifacts/staging/tmpdp_x19gx
+2024-02-29 03:33:33,677 INFO    wandb-upload_1:1266 [upload_job.py:push():89] Uploaded file /home/dagbemenu/.local/share/wandb/artifacts/staging/tmpmuk1c691
+2024-02-29 03:33:33,679 INFO    wandb-upload_0:1266 [upload_job.py:push():89] Uploaded file /home/dagbemenu/.local/share/wandb/artifacts/staging/tmpyv470mbx
+2024-02-29 03:33:34,498 INFO    SenderThread:1266 [sender.py:send_artifact():1456] sent artifact job-https___github.com_dagbeme1_atlas-gan.git_dcgan_models_PrecisionChanges.py - {'id': 'QXJ0aWZhY3Q6NzM1MTkzNDYy', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE0NDAxNzcxMg==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NzM1MDk4MDYy', 'versionIndex': 0}}}
+2024-02-29 03:33:34,499 DEBUG   SenderThread:1266 [sender.py:send_request():407] send_request: defer
+2024-02-29 03:33:34,499 INFO    SenderThread:1266 [sender.py:send_request_defer():609] handle sender defer: 9
+2024-02-29 03:33:34,499 INFO    SenderThread:1266 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-02-29 03:33:35,211 INFO    SenderThread:1266 [dir_watcher.py:finish():388] scan: /home/dagbemenu/atlas-gan/dcgan/models/wandb/run-20240229_032901-xrlixxbj/files
+2024-02-29 03:33:35,212 INFO    SenderThread:1266 [dir_watcher.py:finish():402] scan save: /home/dagbemenu/atlas-gan/dcgan/models/wandb/run-20240229_032901-xrlixxbj/files/config.yaml config.yaml
+2024-02-29 03:33:35,213 INFO    SenderThread:1266 [dir_watcher.py:finish():402] scan save: /home/dagbemenu/atlas-gan/dcgan/models/wandb/run-20240229_032901-xrlixxbj/files/output.log output.log
+2024-02-29 03:33:35,213 INFO    SenderThread:1266 [dir_watcher.py:finish():402] scan save: /home/dagbemenu/atlas-gan/dcgan/models/wandb/run-20240229_032901-xrlixxbj/files/requirements.txt requirements.txt
+2024-02-29 03:33:35,215 INFO    SenderThread:1266 [dir_watcher.py:finish():402] scan save: /home/dagbemenu/atlas-gan/dcgan/models/wandb/run-20240229_032901-xrlixxbj/files/wandb-metadata.json wandb-metadata.json
+2024-02-29 03:33:35,215 INFO    SenderThread:1266 [dir_watcher.py:finish():402] scan save: /home/dagbemenu/atlas-gan/dcgan/models/wandb/run-20240229_032901-xrlixxbj/files/wandb-summary.json wandb-summary.json
+2024-02-29 03:33:35,216 INFO    SenderThread:1266 [dir_watcher.py:finish():402] scan save: /home/dagbemenu/atlas-gan/dcgan/models/wandb/run-20240229_032901-xrlixxbj/files/diff.patch diff.patch
+2024-02-29 03:33:35,234 INFO    SenderThread:1266 [dir_watcher.py:finish():402] scan save: /home/dagbemenu/atlas-gan/dcgan/models/wandb/run-20240229_032901-xrlixxbj/files/code/dcgan/models/PrecisionChanges.py code/dcgan/models/PrecisionChanges.py
+2024-02-29 03:33:35,234 INFO    SenderThread:1266 [sender.py:transition_state():613] send defer: 10
+2024-02-29 03:33:35,235 DEBUG   SenderThread:1266 [sender.py:send_request():407] send_request: poll_exit
+2024-02-29 03:33:35,235 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: defer
+2024-02-29 03:33:35,235 INFO    HandlerThread:1266 [handler.py:handle_request_defer():172] handle defer: 10
+2024-02-29 03:33:35,235 DEBUG   SenderThread:1266 [sender.py:send_request():407] send_request: defer
+2024-02-29 03:33:35,236 INFO    SenderThread:1266 [sender.py:send_request_defer():609] handle sender defer: 10
+2024-02-29 03:33:35,236 INFO    SenderThread:1266 [file_pusher.py:finish():175] shutting down file pusher
+2024-02-29 03:33:35,477 INFO    wandb-upload_1:1266 [upload_job.py:push():131] Uploaded file /home/dagbemenu/atlas-gan/dcgan/models/wandb/run-20240229_032901-xrlixxbj/files/requirements.txt
+2024-02-29 03:33:35,537 INFO    wandb-upload_2:1266 [upload_job.py:push():131] Uploaded file /home/dagbemenu/atlas-gan/dcgan/models/wandb/run-20240229_032901-xrlixxbj/files/config.yaml
+2024-02-29 03:33:35,543 INFO    wandb-upload_0:1266 [upload_job.py:push():131] Uploaded file /home/dagbemenu/atlas-gan/dcgan/models/wandb/run-20240229_032901-xrlixxbj/files/wandb-summary.json
+2024-02-29 03:33:35,549 INFO    wandb-upload_3:1266 [upload_job.py:push():131] Uploaded file /home/dagbemenu/atlas-gan/dcgan/models/wandb/run-20240229_032901-xrlixxbj/files/output.log
+2024-02-29 03:33:35,751 INFO    Thread-11 :1266 [sender.py:transition_state():613] send defer: 11
+2024-02-29 03:33:35,753 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: defer
+2024-02-29 03:33:35,753 INFO    HandlerThread:1266 [handler.py:handle_request_defer():172] handle defer: 11
+2024-02-29 03:33:35,755 DEBUG   SenderThread:1266 [sender.py:send_request():407] send_request: defer
+2024-02-29 03:33:35,755 INFO    SenderThread:1266 [sender.py:send_request_defer():609] handle sender defer: 11
+2024-02-29 03:33:35,756 INFO    SenderThread:1266 [file_pusher.py:join():181] waiting for file pusher
+2024-02-29 03:33:35,756 INFO    SenderThread:1266 [sender.py:transition_state():613] send defer: 12
+2024-02-29 03:33:35,757 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: defer
+2024-02-29 03:33:35,757 INFO    HandlerThread:1266 [handler.py:handle_request_defer():172] handle defer: 12
+2024-02-29 03:33:35,758 DEBUG   SenderThread:1266 [sender.py:send_request():407] send_request: defer
+2024-02-29 03:33:35,759 INFO    SenderThread:1266 [sender.py:send_request_defer():609] handle sender defer: 12
+2024-02-29 03:33:35,759 INFO    SenderThread:1266 [file_stream.py:finish():595] file stream finish called
+2024-02-29 03:33:35,976 INFO    SenderThread:1266 [file_stream.py:finish():599] file stream finish is done
+2024-02-29 03:33:35,976 INFO    SenderThread:1266 [sender.py:transition_state():613] send defer: 13
+2024-02-29 03:33:35,977 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: defer
+2024-02-29 03:33:35,977 INFO    HandlerThread:1266 [handler.py:handle_request_defer():172] handle defer: 13
+2024-02-29 03:33:35,978 DEBUG   SenderThread:1266 [sender.py:send_request():407] send_request: defer
+2024-02-29 03:33:35,979 INFO    SenderThread:1266 [sender.py:send_request_defer():609] handle sender defer: 13
+2024-02-29 03:33:35,979 INFO    SenderThread:1266 [sender.py:transition_state():613] send defer: 14
+2024-02-29 03:33:35,980 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: defer
+2024-02-29 03:33:35,981 INFO    HandlerThread:1266 [handler.py:handle_request_defer():172] handle defer: 14
+2024-02-29 03:33:35,982 DEBUG   SenderThread:1266 [sender.py:send():380] send: final
+2024-02-29 03:33:35,983 DEBUG   SenderThread:1266 [sender.py:send():380] send: footer
+2024-02-29 03:33:35,983 DEBUG   SenderThread:1266 [sender.py:send_request():407] send_request: defer
+2024-02-29 03:33:35,983 INFO    SenderThread:1266 [sender.py:send_request_defer():609] handle sender defer: 14
+2024-02-29 03:33:35,985 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: poll_exit
+2024-02-29 03:33:35,988 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: server_info
+2024-02-29 03:33:35,989 DEBUG   SenderThread:1266 [sender.py:send_request():407] send_request: poll_exit
+2024-02-29 03:33:35,993 DEBUG   SenderThread:1266 [sender.py:send_request():407] send_request: server_info
+2024-02-29 03:33:36,001 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: get_summary
+2024-02-29 03:33:36,004 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: sampled_history
+2024-02-29 03:33:36,004 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-29 03:33:36,006 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: job_info
+2024-02-29 03:33:36,066 DEBUG   SenderThread:1266 [sender.py:send_request():407] send_request: job_info
+2024-02-29 03:33:36,068 INFO    MainThread:1266 [wandb_run.py:_footer_history_summary_info():3599] rendering history
+2024-02-29 03:33:36,068 INFO    MainThread:1266 [wandb_run.py:_footer_history_summary_info():3631] rendering summary
+2024-02-29 03:33:36,068 INFO    MainThread:1266 [wandb_run.py:_footer_sync_info():3558] logging synced files
+2024-02-29 03:33:36,070 DEBUG   HandlerThread:1266 [handler.py:handle_request():146] handle_request: shutdown
+2024-02-29 03:33:36,071 INFO    HandlerThread:1266 [handler.py:finish():866] shutting down handler
+2024-02-29 03:33:37,008 INFO    WriterThread:1266 [datastore.py:close():294] close: /home/dagbemenu/atlas-gan/dcgan/models/wandb/run-20240229_032901-xrlixxbj/run-xrlixxbj.wandb
+2024-02-29 03:33:37,068 INFO    SenderThread:1266 [sender.py:finish():1534] shutting down sender
+2024-02-29 03:33:37,068 INFO    SenderThread:1266 [file_pusher.py:finish():175] shutting down file pusher
+2024-02-29 03:33:37,069 INFO    SenderThread:1266 [file_pusher.py:join():181] waiting for file pusher
