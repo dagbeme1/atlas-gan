@@ -7,13 +7,15 @@ import matplotlib.pyplot as plt
 import time
 import wandb
 
+
+# Enable mixed precision
+policy = tf.keras.mixed_precision.experimental.Policy('mixed_float16')
+tf.keras.mixed_precision.experimental.set_policy(policy)
+
 # Initialize WandB for experiment tracking
 wandb.login()
 wandb.init(project='DCGAN', name='Precision Changes')
 
-# Configure mixed precision
-policy = mixed_precision.Policy('mixed_float16')
-mixed_precision.set_global_policy(policy)
 
 # Configuration settings
 config = wandb.config
