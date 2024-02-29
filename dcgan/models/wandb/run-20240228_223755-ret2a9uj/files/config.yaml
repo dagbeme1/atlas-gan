@@ -1,0 +1,46 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    code_path: code/dcgan/models/Baseline_DCGAN.py
+    python_version: 3.8.10
+    cli_version: 0.15.12
+    framework: keras
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    start_time: 1709181475.890759
+    t:
+      1:
+      - 2
+      - 3
+      - 55
+      2:
+      - 2
+      - 3
+      - 55
+      3:
+      - 2
+      - 13
+      - 19
+      - 23
+      4: 3.8.10
+      5: 0.15.12
+      8:
+      - 5
+      13: linux-x86_64
+BUFFER_SIZE:
+  desc: null
+  value: 60000
+BATCH_SIZE:
+  desc: null
+  value: 256
+EPOCHS:
+  desc: null
+  value: 10
+noise_dim:
+  desc: null
+  value: 100
+num_to_generate:
+  desc: null
+  value: 16
