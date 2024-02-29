@@ -1,7 +1,5 @@
 #!/usr/bin/env python3
-"
-Observe how precision changes affect training speed and image generation quality
-"
+" Observe how precision changes affect training speed and image generation quality"
 
 import tensorflow as tf
 from tensorflow.keras import layers, mixed_precision
